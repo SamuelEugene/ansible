@@ -1,1 +1,7 @@
 #iac-ansible
+
+- name: Playbook Name
+  hosts: target_hosts
+  become: yes
+  become_user: ubuntu
+  gather_facts: yes
